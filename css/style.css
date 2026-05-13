@@ -1,4 +1,104 @@
-h1 {
-  color: red;
-  font-family: Arial, sans-serif;
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+  min-height:100vh;
+
+  /* Fondo temático */
+  background:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url('https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1600&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  color:white;
+  padding:30px;
+}
+
+.contenedor{
+  width:100%;
+  max-width:900px;
+
+  background:rgba(255,255,255,0.12);
+
+  backdrop-filter: blur(10px);
+
+  border-radius:25px;
+
+  padding:40px;
+
+  box-shadow:0 0 25px rgba(0,0,0,0.4);
+
+  text-align:center;
+}
+
+h1{
+  font-size:3rem;
+  margin-bottom:15px;
+}
+
+.subtitulo{
+  font-size:1.2rem;
+  margin-bottom:40px;
+  line-height:1.6;
+}
+
+.cuentos{
+  display:grid;
+
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+
+  gap:25px;
+}
+
+.boton-cuento{
+
+  background:white;
+
+  color:#333;
+
+  text-decoration:none;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  font-size:1.2rem;
+
+  font-weight:bold;
+
+  transition:0.3s;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.boton-cuento:hover{
+
+  transform:translateY(-6px) scale(1.03);
+
+  background:#ffe082;
+
+}
+
+.footer{
+
+  margin-top:40px;
+
+  font-size:0.95rem;
+
+  opacity:0.9;
+
+}
+
+  </style>
