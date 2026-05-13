@@ -8,14 +8,13 @@
 body{
   min-height:100vh;
 
-  /* Fondo temático */
   background:
-  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-  background-image: url('../Images/Fondo_cuentos.png');
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('../images/Fondo_cuentos.png');
 
-  background-size:cover;
-  background-position:center;
-  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
   display:flex;
   justify-content:center;
