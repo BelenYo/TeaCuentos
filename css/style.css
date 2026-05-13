@@ -10,7 +10,7 @@ body{
 
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('../images/Fondo_cuentos.png');
+    url('../Images/Fondo_cuentos.png');
 
   background-size: cover;
   background-position: center;
